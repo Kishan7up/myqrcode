@@ -1,7 +1,7 @@
 name: myqrscan
 description: "A new Flutter project."
 version: 0.0.2
-homepage:
+homepage: https://github.com/Kishan7up/myqrcode
 
 environment:
   sdk: ^3.7.2

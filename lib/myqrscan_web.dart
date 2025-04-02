@@ -3,7 +3,7 @@
 // package as the core of your plugin.
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html
-    show window, Element, ScriptElement, StyleElement, querySelector, Text;
+    show  Element, ScriptElement, StyleElement, querySelector, Text;
 import 'package:flutter/widgets.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:web/web.dart' as web;
