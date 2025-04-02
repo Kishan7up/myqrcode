@@ -1,7 +1,6 @@
 # myqrscan
 
-A new Flutter project.
-
+Qr Code Scanner Dialog
 ## Getting Started
 
 This project is a starting point for a Flutter
