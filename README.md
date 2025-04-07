@@ -64,6 +64,12 @@ Scaffold(
 );
 ```
 
+
+## ☕ Support My Work
+I’m passionate about building tools that make development easier! If you find MyQRScan useful, consider **supporting me** to help me continue creating and maintaining such projects. Your support keeps me motivated! ❤️
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-orange?style=flat-square&logo=buy-me-a-coffee)](https://buymeacoffee.com/kishan7up)
+
 ## 📜 License
 This project is licensed under the **MIT License**.
 
