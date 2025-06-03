@@ -13,7 +13,7 @@ class MockMyqrscanPlatform
   Future<String?> getPlatformVersion() => Future.value('42');
   @override
   void scanBarOrQrCode(
-      {BuildContext? context, required Function(String? p1) onScanSuccess}) {
+      {BuildContext? context, Color? bordercolor, required Function(String? p1) onScanSuccess}) {
     onScanSuccess("CODE");
   }
 }

@@ -156,7 +156,7 @@ class MyqrscanWeb extends MyqrscanPlatform {
 
   @override
   void scanBarOrQrCode(
-      {BuildContext? context, required Function(String?) onScanSuccess}) {
+      {BuildContext? context,Color? bordercolor, required Function(String?) onScanSuccess}) {
     js.context.callMethod("scanCode", [onScanSuccess]);
   }
 }

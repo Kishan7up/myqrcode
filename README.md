@@ -47,6 +47,7 @@ Scaffold(
           onTap: () {
             _myqrscanPlugin.getScannedQrBarCode(
               context: context,
+              bordercolor: Colors.white,
               onCode: (scannedCode) {
                 setState(() {
                   code = scannedCode ?? "";

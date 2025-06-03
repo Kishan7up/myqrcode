@@ -29,7 +29,7 @@ abstract class MyqrscanPlatform extends PlatformInterface {
   }
 
   void scanBarOrQrCode(
-      {BuildContext? context, required Function(String?) onScanSuccess}) {
+      {BuildContext? context,Color? bordercolor, required Function(String?) onScanSuccess}) {
     throw UnimplementedError('scanBarOrQrCodeWeb() has not been implemented.');
   }
 }

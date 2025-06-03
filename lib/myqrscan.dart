@@ -9,7 +9,7 @@ class Myqrscan {
   }
 
   void getScannedQrBarCode(
-      {BuildContext? context, required Function(String?) onCode}) {
+      {BuildContext? context,Color? bordercolor, required Function(String?) onCode}) {
     MyqrscanPlatform.instance
         .scanBarOrQrCode(context: context, onScanSuccess: onCode);
   }

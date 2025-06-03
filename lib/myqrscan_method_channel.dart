@@ -22,7 +22,7 @@ class MethodChannelMyqrscan extends MyqrscanPlatform {
   }
   @override
   void scanBarOrQrCode(
-      {BuildContext? context, required Function(String? code) onScanSuccess}) {
+      {BuildContext? context,Color? bordercolor, required Function(String? code) onScanSuccess}) {
     /// context is required to show alert in non-web platforms
     assert(context != null);
 
@@ -36,7 +36,7 @@ class MethodChannelMyqrscan extends MyqrscanPlatform {
             margin: const EdgeInsets.all(20),
             padding: const EdgeInsets.all(2),
             decoration: BoxDecoration(
-              color:Color(0xffdfba73),
+              color:bordercolor,
               borderRadius: BorderRadius.circular(10),
             ),
             child: ScannerWidget(onScanSuccess: (code) {

@@ -66,6 +66,7 @@ class _MyAppState extends State<MyApp> {
                   onTap: (){
                     _myqrscanPlugin.getScannedQrBarCode(
                         context: context,
+                        bordercolor: Colors.white,
                         onCode: (code) {
                           setState(() {
                             this.code = code!;
